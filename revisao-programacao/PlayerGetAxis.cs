@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
-public class Player : MonoBehaviour
+public class PlayerGetAxis : MonoBehaviour
 {
-    //Usado para fazer personagens n„o-beseados
-    //em eventos fÌsicos (ex. reaÁ„o automatica a colisıes)
+    //Usado para fazer personagens n√£o-beseados
+    //em eventos f√≠sicos (ex. rea√ß√£o automatica a colis√µes)
     CharacterController controller;
     Vector3 velocity;//velocidade vetorial
     Vector3 direction;
@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         //GetComponent<>() retorna um componente do GameObject
-        //que contÈm o script que o roda
+        //que cont√©m o script que o roda
         controller = GetComponent<CharacterController>();
     }
 
@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         /*  GetAxis() retorna valores entre 1 e -1 a partir
-         do eixo passado por par‚metro.
+         do eixo passado por par√¢metro.
             GetAxis("Horizontal") retorna 1 enquanto a tecla
          A estiver pressionada, retorna -1 enquanto a tecla D 
          estiver pressionadac e retorna 0 quando ambas 
@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
         //Ambas soltas, retorna 0;
         float z = Input.GetAxis("Vertical");
 
-        //2 - construir a direÁ„o com os comandos
+        //2 - construir a dire√ß√£o com os comandos
         direction = new Vector3(x, 0, z);
 
         //3 - construir velocidade vetorial
