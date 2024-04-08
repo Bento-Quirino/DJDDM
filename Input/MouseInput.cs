@@ -4,29 +4,29 @@ using UnityEngine;
 
 public class MouseInput : MonoBehaviour
 {
-    /*Quando pensamos em posiÁ„o do mouse ou do touch, existem
-     dois tipos de posiÁıes:
-    1 - PosiÁ„o na tela (fÌsica): È limitada pelo tamanho e resoluÁ„o
+    /*Quando pensamos em posi√ß√£o do mouse ou do touch, existem
+     dois tipos de posi√ß√µes:
+    1 - Posi√ß√£o na tela (f√≠sica): √© limitada pelo tamanho e resolu√ß√£o
     do dispositivo.
-    2 - PosiÁ„o no mundo do jogo (virtual): È a posiÁ„o dentro do
-    mundo do jogo e sÛ È limitada pela capacidade numÈrica do Unity.
+    2 - Posi√ß√£o no mundo do jogo (virtual): √© a posi√ß√£o dentro do
+    mundo do jogo e s√≥ √© limitada pela capacidade num√©rica do Unity.
     */
 
-    //No caso de posiÁ„o de interaÁ„o com a tela,
-    //toda posiÁ„o È 2D
-    //Input.mousePosition retorna a posiÁ„o do ponteiro do mouse
-    //no plano da TELA (sentido fÌsico).
+    //No caso de posi√ß√£o de intera√ß√£o com a tela,
+    //toda posi√ß√£o √© 2D
+    //Input.mousePosition retorna a posi√ß√£o do ponteiro do mouse
+    //no plano da TELA (sentido f√≠sico).
     //Vector2 position = Input.mousePosition;
 
-    /*Haveram situaÁıes em que ser· necess·rio usar a posiÁ„o
-    lida direto da tela do dispositivo. E haver· outras 
-    situaÁıes em que ser· necess·rio converter a posiÁ„o
+    /*Haveram situa√ß√µes em que ser√° necess√°rio usar a posi√ß√£o
+    lida direto da tela do dispositivo. E haver√° outras 
+    situa√ß√µes em que ser√° necess√°rio converter a posi√ß√£o
     do mouse para o mundo do jogo.*/
 
-    /*Geralmente, em 2D, È possÌvel pegar com alta precis„o
-    a posiÁ„o do mouse convertida. Nesse caso utilizamos
-    o mÈtodo ScreenToWorldPoint, que converte uma posiÁ„o
-    de tela para uma posiÁ„o no mundo jogo.*/
+    /*Geralmente, em 2D, √© poss√≠vel pegar com alta precis√£o
+    a posi√ß√£o do mouse convertida. Nesse caso utilizamos
+    o m√©todo ScreenToWorldPoint, que converte uma posi√ß√£o
+    de tela para uma posi√ß√£o no mundo jogo.*/
     /*
     Vector3 worldPosition =
             Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -34,10 +34,10 @@ public class MouseInput : MonoBehaviour
         Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
     */
 
-    /*No 3D, geralmente a profundidade impede uma convers„o
-    direta da posiÁ„o. Assim, È comum que se converta a posiÁ„o
-    da tela em um RAIO. Nesse caos, utilizamos o mÈtodo
-    ScreenPointToRay, que far· essa convers„o. E com esse raio
+    /*No 3D, geralmente a profundidade impede uma convers√£o
+    direta da posi√ß√£o. Assim, √© comum que se converta a posi√ß√£o
+    da tela em um RAIO. Nesse caos, utilizamos o m√©todo
+    ScreenPointToRay, que far√° essa convers√£o. E com esse raio
     podemos dispara-lo em cena, e verficar com quem ele colide.*/
     /*
     Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -54,12 +54,12 @@ public class MouseInput : MonoBehaviour
     //2D
     void WorldPointExample()
     {
-        //Uma posiÁ„o no mundo do jogo sempre È uma posiÁ„o 3D
+        //Uma posi√ß√£o no mundo do jogo sempre √© uma posi√ß√£o 3D
         //mesmo em um projeto 2D. Apenas o Z funciona como 'camada'.
         Vector3 worldPosition =
             Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        //Criando um cÌrculo centrado na mesma posiÁ„o convertida
+        //Criando um c√≠rculo centrado na mesma posi√ß√£o convertida
         //do mouse, e simulando que o ponteiro do mouse possui
         //tamanho 1.
         Collider2D col = Physics2D.OverlapCircle(worldPosition, 1f);
