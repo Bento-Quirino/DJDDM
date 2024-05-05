@@ -1,0 +1,15 @@
+Compile um aplicativo de teste para Android.
+
+Existe uma diferença entre um aplicativo que você compila e instala, e o aplicativo que é baixado da PlayStore.
+Aplicativos para PlayStore serão vistos posteriormente.
+Por hora, crie e compile um aplicativo '.apk'.
+Este tipo de arquivo pode ser gerado pelo Unity e transferido para o celular,
+afim de instalar o jogo feito no Unity para roda-lo e testa-lo.
+
+Como atividade, siga os passos do vídeo sugerido abaixo.
+Para validar a execução do aplicativo, configure a resolução do projeto, e coloque uma esfera girando em cena.
+
+https://www.youtube.com/watch?v=Nb62z3J4A_A
+
+Envie o arquivo .apk para marcos.prof.cps@bentoquirino.com.br, assunto "APK 3º Games".
+Prazo: 12/05.
