@@ -1,0 +1,9 @@
+Usando os conceitos estudados em aula, implemente no Unity a mecânica de lançamento de objetos com o touch,
+similar como ocorre no Angry Birds.
+Para tal, considere que o objeto terá rigidbody, e que o efeito de lançamento seja registrado em qualquer
+ponto tocado da tela.
+Utilize os pontos iniciais e finais do toque, bem como a distância entre eles para calcular a força de lançamento.
+
+Enviar código para marcos.prof.cps@bentoquirino.com.br
+Assunto "Av Mensal 2º Bim 3º Games".
+Data limite: 26/05.
