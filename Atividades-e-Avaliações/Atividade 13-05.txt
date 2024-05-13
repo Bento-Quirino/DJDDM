@@ -1,4 +1,4 @@
-Utilizando o acelerômetro, faça um programa no Unity que GIRA um objeto
+Utilizando o acelerômetro, faça um programa no Unity que GIRA um objeto 3D
 na mesma direção lida pelo acelerômetro.
 Enviar código para marcos.prof.cps@bentoquirino.com.br
 Assunto "Accel".
