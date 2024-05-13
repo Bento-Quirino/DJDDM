@@ -1,0 +1,4 @@
+Utilizando o acelerômetro, faça um programa no Unity que GIRA um objeto
+na mesma direção lida pelo acelerômetro.
+Enviar código para marcos.prof.cps@bentoquirino.com.br
+Assunto "Accel".
