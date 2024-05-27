@@ -1,0 +1,65 @@
+using System;
+using UnityEngine;
+
+/*
+ Usando os conceitos estudados em aula, 
+implemente no Unity a mecânica de lançamento 
+de objetos com o touch,
+similar como ocorre no Angry Birds.
+Para tal, considere que o objeto terá rigidbody,
+e que o efeito de lançamento seja registrado 
+em qualquer ponto tocado da tela.
+Utilize os pontos iniciais e finais do toque, 
+bem como a distância entre eles para 
+calcular a força de lançamento.
+Utilize também o método AddForce() do rigidbody
+para aplicar a FORÇA VETORIAL para
+lançar o objeto.
+ */
+
+public class Launch : MonoBehaviour
+{
+    Rigidbody body;
+
+    //posição na tela
+    Vector3 start, end;
+
+    void Start()
+    { body = GetComponent<Rigidbody>(); }
+
+    void Update()
+    {
+        if(Input.touchCount > 0)
+        {
+            //Pega o primeiro toque sendo lido
+            Touch touch = Input.GetTouch(0);
+
+            if(touch.phase == TouchPhase.Begin)
+            { start = touch.position; }
+
+            //Fase em que se tira o dedo da tela
+            if(touch.phase == TouchPhase.Ended)
+            {
+                end = touch.position;
+
+                //Só pode soltar o objeto na fase final:
+
+                //Vetor a partir das posições
+                Vector3 force = (start - end);
+
+                //Controle da força
+                //limita a amplificação da força
+                //a partir do quanto o dedo
+                //arrastou pela tela.
+                //no caso o limite é '1'
+                if(force.magnitude > 1.42)
+                { force.Normalize(); }
+
+                //ou
+                //force.Normalize();
+
+                body.AddForce(force * 100f);
+            }
+        }
+    }
+}
