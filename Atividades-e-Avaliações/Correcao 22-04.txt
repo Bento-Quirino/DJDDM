@@ -1,0 +1,71 @@
+using System;
+using UnityEngine;
+
+public class DragNDrop : MonoBehaviour
+{
+	/*
+	 Usando métodos como, POR EXEMPLO, 
+	OnMouseOver, OnMouseDown, OnMouseDrag 
+	(nativos do Unity), implemente um código 
+	que reproduza a mecânica de "Drag 'n Drop",
+	utilizando o mouse.
+	 */
+
+	/*A cada frame, copia-se a posição do mouse
+	 (convertida) para a posição do objeto,
+	de modo que ele sempre fica em cima do ponteiro
+	do mouse*/
+	
+	//Executada pelo unity quando o mouse
+	//se move com o botão segurado no objeto que
+	//contém esse código e um collider.
+	void OnMouseDrag()
+    {
+		transform.position = MousePosition();
+		//transform.position
+		//	= MousePosition(transform.position.z);
+	}
+
+	//Mouse2D()
+	Vector2 MousePosition()
+    {
+		//lê e converted a posição do mouse
+		//para o espaço do jogo
+		Vector3 position = Camera.main
+			.ScreenToWorldPoint(Input.mousePosition);
+
+		return position;
+    }
+
+	//Mouse no 3D
+	Vector3 MousePosition()
+    {
+		//lê e converted a posição do mouse
+		//para o espaço do jogo
+		Ray ray = Camera.main
+			.ScreenPointToRay(Input.mousePosition);
+
+		RaycastHit hit;
+		Physics.Raycast(ray);
+
+		//Se o raio bateu em algo, significa que,
+		//no caso, o raio atingiu o objeto que 
+		//se deseja arrastar
+		if (hit.collider != null)
+		{
+			return hit.point;
+		}
+		return Vector3.zero;
+	}
+
+	//Outra alternativa, seria fixa o eixo Z
+	Vector2 MousePosition(float zCoord)
+	{
+		//lê e converted a posição do mouse
+		//para o espaço do jogo
+		Vector3 position = Camera.main
+			.ScreenToWorldPoint(Input.mousePosition);
+		position.z = zCoord;
+		return position;
+	}
+}
