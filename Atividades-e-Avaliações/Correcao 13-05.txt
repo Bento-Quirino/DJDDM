@@ -1,0 +1,24 @@
+using System;
+using UnityEngine;
+
+/*
+Utilizando o acelerômetro, 
+faça um programa no Unity que GIRA um objeto 3D
+na mesma direção lida pelo acelerômetro.
+ */
+public class AccelRotation : MonoBehavior
+{
+    float rotationSpeed = 10;
+
+    void Update()
+    {
+        //Lê a direção do acelerometro (normalizado)
+        Vector3 accel 
+            = Input.accelerometer.normalized;
+
+        //Aplico a direção como rotação, efetuando
+        //o calculo comum de movimento
+        transform.Rotate(accel * rotationSpeed
+                            Time.deltaTime);
+    }
+}
