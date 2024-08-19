@@ -1,0 +1,14 @@
+A partir do TCC, implemente a mecânica de movimento plataforma para mobile.
+Esse teste de mecânica deve conter:
+
+- Um breve cenário em tile map;
+- O personagem principal com as animações;
+- A capacidade do jogador mover o personagem no eixo horizontal e pular;
+- Controle feito por toque de tela
+
+Utilize parte da playlist a seguir como material de apoio:
+https://www.youtube.com/watch?v=Od74j1Rim20&list=PLw7F758vrsxxkQexyaLfKiAU2wo7BQXN9
+
+Entrega: 10/09/2024.
+Enviar projeto do Unity e o .apk para marcos.prof.cps@bentoquirino.com.br
+Assunto "Av. Mensal 3º Bim".
