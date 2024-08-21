@@ -1,0 +1,9 @@
+Faça um trabalho-pesquisa que contenha e responsa os seguintes tópicos:
+- O que é Waypoint?
+- O que é Grafo?
+- Qual é a relação de waypoints e grafos?
+- Como funcionam os algoritmos DFS, BFS e A*?
+
+Formate o documento com: Capa, Índice e Referências.
+Enviar para marcos.prof.cps@bentoquirino.com.br, assunto "Av Mensal 3º Bim RVIA".
+Data: até 30/08.
