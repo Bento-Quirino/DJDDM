@@ -9,6 +9,6 @@ Esse teste de mecânica deve conter:
 Utilize parte da playlist a seguir como material de apoio:
 https://www.youtube.com/watch?v=Od74j1Rim20&list=PLw7F758vrsxxkQexyaLfKiAU2wo7BQXN9
 
-Entrega: 10/09/2024.
+Entrega: 09/09/2024.
 Enviar projeto do Unity e o .apk para marcos.prof.cps@bentoquirino.com.br
 Assunto "Av. Mensal 3º Bim".
