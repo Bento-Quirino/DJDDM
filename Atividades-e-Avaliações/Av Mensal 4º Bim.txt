@@ -1,0 +1,21 @@
+A partir do que foi visto em aula sobre IA e Árvore de Comportamento, faça um trabalho que mapeia as IA's e seus comportamentos em jogos.
+
+O trabalho deve ser feito da seguinte forma:
+- Escolha 3 jogos
+- Para cada jogo selecione um NPC, bot ou agente que possua comportamentos autônomos
+- Descreva cada comportamento autônomo que ele executa
+- Descreva quais algoritmos fundamentam, ou possivelmente fundamentam, a implementação dos comportamentos
+- Cada agente autonomo deve ter comportamentos em árvore - uma ação ou estado deve permitir a execução de novas ações e estados de forma exclusiva
+
+O trabalho deve ser estruturado da seguite forma:
+- Capa contendo nome, disciplina e título do trabalho
+- Sumário
+- Cada capítulo deve corresponder a um jogo
+- Cada novo capítulo precisa iniciar uma nova seção (quebra de página/seção)
+- Para cada jogo, faça um breve resumo do que se trata o jogo e de sua gameplay
+- Separe o texto em subcapitulos se precisar
+- Referências
+
+enviar trabalho para marcos.prof.cps@bentoquirino.com.br
+assunto "Av. Mensal 4º Bim RVIA"
+Data: 04/11
