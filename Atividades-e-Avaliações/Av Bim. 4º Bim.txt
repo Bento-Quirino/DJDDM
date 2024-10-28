@@ -1,0 +1,15 @@
+Para a nota bimestral, em ambas as disciplinas, considerarei o jogo da Game Jam.
+
+Ao fim do bimestre deve ser enviado uma prova de conceito do jogo
+Esse jogo/entrega deve conter:
+- Gameplay loop completo (inicio, meio e fim, como tela título, tela de jogo, derrota, por exemplo)
+- ao menos uma mecânica central (por exemplo, no caso do Mário seria andar e pular, característicos de jogos plataforma)
+- um inimigo ou objeto autônomo, que executa alguma ação
+
+Junto, deve conter um relatório para cada disciplina explicando o código (ou lógica) do desenvolvimento
+- da mecânica central do jogo
+- do comportamento autônomo
+
+Data: 18/11
+enviar jogo e relatório para "marcos.prof.cps@bentoquirino.com.br"
+assunto "Av. 4º Bim 3º Games"
