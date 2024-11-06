@@ -1,4 +1,4 @@
-Para a nota bimestral, em ambas as disciplinas, considerarei o jogo da Game Jam.
+Para a nota mensal e bimestral, em ambas as disciplinas, considerarei o jogo da Game Jam.
 
 Ao fim do bimestre deve ser enviado uma prova de conceito do jogo
 Esse jogo/entrega deve conter:
