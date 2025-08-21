@@ -1,0 +1,4 @@
+Usando o código Motorcycle, faça o controle do movimento da moto para os laods.
+- Use a mesma lógica do movimento para frente e para trás
+- Implemente como movimentos independentes. Dica: separe em métodos distintos, e os chame no Update()
+- O movimento para os lados só deve ocorrer quando a moto possuir alguma aceleração.
