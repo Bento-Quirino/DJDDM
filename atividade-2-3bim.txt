@@ -1,0 +1,5 @@
+Usando o código da moto, da atividade anterior e o CommonInput do 3-games-jogo,
+implemente o controle da moto em um cenário esboçado.
+Deve conter a moto, totalmente controlável e a pista.
+Enviar .unitypackge para marcos.prof.cps@bentoquirino.com.br
+assunto "3º Games moto"
