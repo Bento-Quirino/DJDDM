@@ -1,0 +1,9 @@
+Usando o que foi desenvolvido até o momento, implemente o movimento da moto com cenário.
+Nesse projeto, a moto deve ter um movimento independente na pista com limites de posição.
+Enquanto isso, o cenário deve se mover de acordo com a perspectiva e proposta do jogo.
+Tenha como referências os jogos de corrida dos anos 90 como Top Gear e F-Zero.
+Dica: Use o algoritmo de movimento do chão do vídeo a seguir, e adapte-o para o projeto sendo desenvolvido na disciplina
+https://youtu.be/M22tbRcVm7k?t=298
+
+Enviar .unitypackage para marcos.prof.cps@bentoquirino.com.br, assunto "moto + pista 3º Games"
+Data: 02/10/2025
