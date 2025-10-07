@@ -1,0 +1,26 @@
+Tela Título		Asset:  Nome		
+          		        Arte		
+          		        Botões;  Janelas;  Fonte		
+                      
+              Mecânicas: Fade
+				
+Visual Novel	Asset:  História		
+                  		Personagens (Frames)		
+                  		Menu (arte e opções)		
+                  		Fonte (diálogo)		
+                      
+				      Mecânica:  Passar Texto
+				                 Troca de Cena
+                         
+Corrida	Asset:  Moto + Braços		
+            		Pista		
+            		Cenário		
+            		Modelo de obstáculo	
+                Game Over
+                
+				Mecânicas:  Troca de Cena
+            				Timer
+            				Colisão com obstaculo
+            				Controle da moto
+            				Movimento do Cenário
+				
