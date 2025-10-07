@@ -4,7 +4,7 @@ Tela Título		Asset:  Nome
                       
               Mecânicas: Fade
 				
-Visual Novel	Asset:  História		
+Visual Novel	Asset:  História e Diálogos	
                   		Personagens (Frames)		
                   		Menu (arte e opções)		
                   		Fonte (diálogo)		
@@ -12,11 +12,12 @@ Visual Novel	Asset:  História
 				      Mecânica:  Passar Texto
 				                 Troca de Cena
                          
-Corrida	Asset:  Moto + Braços		
-            		Pista		
-            		Cenário		
-            		Modelo de obstáculo	
-                Game Over
+Corrida				  Asset:  Moto + Braços		
+				            		Pista		
+				            		Cenário		
+				            		Modelo de obstáculo	
+									Menu (arte e opções)
+				                	Game Over
                 
 				Mecânicas:  Troca de Cena
             				Timer
@@ -24,3 +25,7 @@ Corrida	Asset:  Moto + Braços
             				Controle da moto
             				Movimento do Cenário
 				
+
+Enviar restante dos Assets para marcos.prof.cps@bentoquirino.com.br
+Assunto "assets 3º jogo)
+Data: 20/10
